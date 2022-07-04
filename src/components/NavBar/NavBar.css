@@ -1,0 +1,36 @@
+.navBar {
+    height: 4.5rem;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 6rem;
+}
+
+.logoNav {
+    height: 60%;
+}
+
+.logoNav img {
+    height: 100%;
+}
+
+.navBar ul {
+    width: 35%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar ul li {}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 500ms ease;
+}
+
+.navBar ul li a:hover {
+    color: orange;
+}
