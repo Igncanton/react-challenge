@@ -1,4 +1,5 @@
 import './NavBar.css'
+import CartWidget from '../CartWidget/CartWidget'
 import logoNav from '../../logo.svg'
 
 const NavBar = () => {
@@ -12,7 +13,9 @@ const NavBar = () => {
                 <li><a href={"#"}>Products</a></li>
                 <li><a href={"#"}>About</a></li>
                 <li><a href={"#"}>Contact</a></li>
+                <CartWidget />
             </ul>
+
         </nav>);
 }
 

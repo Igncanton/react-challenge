@@ -16,14 +16,16 @@
 }
 
 .navBar ul {
-    width: 35%;
+    width: fit-content;
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navBar ul li {}
+.navBar ul li {
+    margin-inline: 1.5em;
+}
 
 .navBar ul li a {
     text-decoration: none;

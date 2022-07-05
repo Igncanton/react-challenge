@@ -1,0 +1,15 @@
+.cartContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cartWidget {
+    height: 1.4em;
+    color: whitesmoke;
+}
+
+.cartCounter {
+    margin-left: 0.5em;
+    color: whiteSmoke;
+}
