@@ -1,0 +1,40 @@
+.productCard {
+    width: 250px;
+    height: 270px;
+    background-color: lightgrey;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productCard h2 {}
+
+.productCard__btnContainer {}
+
+.productCard__btnContainer button {
+    padding: 0.1em 1em;
+    background-color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.productCard__btnContainer span {
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+.productCard__addCart {
+    margin-bottom: 2em;
+}
+
+.productCard__addCart button {
+    padding: 0.5em 1.5em;
+    background-color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 4px;
+}
