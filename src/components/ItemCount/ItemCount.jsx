@@ -17,16 +17,10 @@ const ItemCount = ({ stock, initial }) => {
     }
 
     return (
-        <div className="productCard">
-            <h2>Product Title</h2>
-            <div className="productCard__btnContainer">
-                <button onClick={handleSubs}> - </button>
-                <span> {count} </span>
-                <button onClick={handleAdd}> + </button>
-            </div>
-            <div className="productCard__addCart">
-                <button>Agregar al carrito</button>
-            </div>
+        <div className="productCard__btnContainer">
+            <button onClick={handleSubs}> - </button>
+            <span> {count} </span>
+            <button onClick={handleAdd}> + </button>
         </div>
     );
 }

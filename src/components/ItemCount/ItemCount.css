@@ -1,6 +1,6 @@
 .productCard {
     width: 250px;
-    height: 270px;
+    min-height: 270px;
     background-color: lightgrey;
     border-radius: 4px;
     margin: 0 auto;
@@ -11,9 +11,22 @@
 
 .productCard h2 {}
 
+
+.productCard__imgContainer {
+    height: 10em;
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .productCard__btnContainer {}
 
 .productCard__btnContainer button {
+    margin: 1.2em auto;
     padding: 0.1em 1em;
     background-color: white;
     font-weight: bold;
