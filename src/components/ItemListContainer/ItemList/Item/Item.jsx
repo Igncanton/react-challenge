@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemCount from '../../../ItemCount/ItemCount'
+
 
 function Item({ cadaItem }) {
     return (
@@ -8,8 +8,8 @@ function Item({ cadaItem }) {
             <div className="productCard__imgContainer">
                 {cadaItem.category}
             </div>
-            <ItemCount stock={cadaItem.stock} initial={1} />
-            <div className="productCard__addCart">
+
+            <div className="productCard__addCart" style={{ marginTop: 2 + "em" }}>
                 <button>Agregar al carrito</button>
             </div>
         </div>

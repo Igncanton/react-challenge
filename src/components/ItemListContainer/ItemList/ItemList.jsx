@@ -1,6 +1,6 @@
 import React from 'react'
 import Item from './Item/Item'
-import './ItemList.css'
+import './Item/ItemList.css'
 
 function ItemList(props) {
     return (
