@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import instrumentsDB from '../../data/instruments'
-import ItemDetail from '../ItemDetail/ItemDetail';
+import instrumentsDB from '../data/instruments'
+import ItemDetail from './ItemDetail';
 
 function getInstrument() {
     return new Promise((resolve, reject) => {

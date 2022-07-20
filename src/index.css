@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Item Count */
+.productCard {
+  width: 250px;
+  min-height: 270px;
+  background-color: lightgrey;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productCard__title {
+  text-align: center;
+}
+
+.productCard__imgContainer {
+  height: 10em;
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productCard__btnContainer {
+  margin: 0 auto;
+}
+
+.productCard__btnContainer button {
+  margin: 1.2em auto;
+  padding: 0.1em 1em;
+  background-color: white;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.productCard__btnContainer span {
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.productCard__addCart {
+  margin: 0 auto 2em auto;
+}
+
+.productCard__addCart button {
+  padding: 0.5em 1.5em;
+  background-color: white;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detailCard__title {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.productCard p {
+  text-align: center;
+  padding: 0 0.5em;
+  margin-top: 0;
+}
+
+/* Item List */
+.ItemListContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+/* Item List Container */
+.itemListP {
+  font-size: 2.5em;
+  text-align: center;
+}

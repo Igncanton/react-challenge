@@ -1,11 +1,10 @@
-import '../ItemCount/ItemCount.css'
-import ItemCount from '../ItemCount/ItemCount'
+import ItemCount from './ItemCount'
 
 const ItemDetail = ({ item }) => {
     return (
         <div className="productCard" key={item.id}>
-            <h2>{item.title}</h2>
-            <p>Item Detail</p>
+            <h2 class="detailCard__title">{item.title}</h2>
+            <p>{item.detail}</p>
             <div className="productCard__imgContainer">
                 <img src={item.imgUrl} alt="" style={{ width: 10 + 'em' }} />
             </div>
